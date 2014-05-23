@@ -9,8 +9,8 @@ module HashDelegate
 
     def define_setter(key, hash)
       define_delegation "#{key}=" do |value|
-        data = self.send(hash) || self.send("#{hash}=", {})
-        data[key.to_s] = value
+        self.send(hash) or self.send("#{hash}=", {})
+        self.send(hash)[key.to_s] = value
       end
     end
 

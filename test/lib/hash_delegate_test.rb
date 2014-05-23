@@ -27,6 +27,7 @@ describe HashDelegate do
 
     assert_equal object.color, "green"
     assert_equal object.size, "lg"
+    assert_equal object.data, {"color" => "green", "size" => "lg"}
   end
 
   it "does not add getters to keys that where not delegated" do

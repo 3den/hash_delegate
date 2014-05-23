@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    hash_delegate (0.0.5)
+    hash_delegate (0.0.6)
       activesupport (>= 4.0.0)
 
 GEM
