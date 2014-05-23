@@ -1,7 +1,7 @@
 $:.push File.expand_path('../', __FILE__)
+require "active_support/all"
 require "hash_delegate/version"
 require "hash_delegate/accessor"
-require "active_support/all"
 
 module HashDelegate
   def hash_delegate(*args)
