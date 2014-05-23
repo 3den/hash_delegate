@@ -1,6 +1,6 @@
 # HashDelegate
 
-Dynamically add methods that delegate to key/values of a hash.
+Add accessor methods that delegate to key/values of a hash attribute.
 
 ## Installation
 
@@ -18,18 +18,7 @@ Or install it yourself as:
 
 ## Usage
 
-```ruby
-class Something
-  extend HashDelegate
-  hash_delegate :size, :color, to: :details
-
-  attr_accessor :details
-
-  def initialize(details={})
-    @details = details
-  end
-end
-```
+Check the tests ;)
 
 ## Contributing
 
