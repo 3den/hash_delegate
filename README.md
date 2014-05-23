@@ -1,4 +1,5 @@
 # HashDelegate
+[![Build Status](https://travis-ci.org/3den/hash_delegate.svg?branch=master)](https://travis-ci.org/3den/hash_delegate) [![Code Climate](https://codeclimate.com/github/3den/hash_delegate.png)](https://codeclimate.com/github/3den/hash_delegate)
 
 Add accessor methods that delegate to key/values of a hash attribute.
 
